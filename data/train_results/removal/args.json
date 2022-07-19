@@ -1,7 +1,9 @@
 {
     "activation": "ReLU",
+    "adding_h": false,
     "aggregation": "mean",
     "aggregation_norm": 100,
+    "alternative_loss_function": null,
     "atom_descriptor_scaling": true,
     "atom_descriptors": null,
     "atom_descriptors_path": null,
@@ -15,6 +17,7 @@
     "bond_features_size": 0,
     "cache_cutoff": 10000,
     "checkpoint_dir": null,
+    "checkpoint_frzn": null,
     "checkpoint_path": null,
     "checkpoint_paths": null,
     "class_balance": false,
@@ -22,18 +25,19 @@
     "crossval_index_dir": null,
     "crossval_index_file": null,
     "crossval_index_sets": null,
-    "cuda": false,
+    "cuda": true,
     "data_path": "./data/_train_dm300_full.csv",
+    "data_weights_path": null,
     "dataset_type": "regression",
     "depth": 3,
     "device": {
         "_type": "python_object (type = device)",
-        "_value": "gASVHgAAAAAAAACMBXRvcmNolIwGZGV2aWNllJOUjANjcHWUhZRSlC4="
+        "_value": "gANjdG9yY2gKZGV2aWNlCnEAWAQAAABjdWRhcQGFcQJScQMu"
     },
     "dropout": 0.0,
     "empty_cache": false,
     "ensemble_size": 1,
-    "epochs": 3,
+    "epochs": 60,
     "explicit_h": false,
     "extra_metrics": [],
     "features_generator": null,
@@ -45,6 +49,8 @@
     "ffn_num_layers": 2,
     "final_lr": 0.0001,
     "folds_file": null,
+    "freeze_first_only": false,
+    "frzn_ffn_layers": 0,
     "gpu": null,
     "grad_clip": null,
     "hidden_size": 300,
@@ -72,13 +78,14 @@
     "number_of_molecules": 1,
     "overwrite_default_atom_features": false,
     "overwrite_default_bond_features": false,
+    "phase_features_path": null,
     "pytorch_seed": 0,
     "quiet": true,
     "reaction": false,
     "reaction_mode": "reac_diff",
     "reproducibility": {
-        "command_line": "python /Users/ignaczg/miniforge3_arm64/envs/chemprop/lib/python3.8/site-packages/ipykernel_launcher.py -f /Users/ignaczg/Library/Jupyter/runtime/kernel-fb03ea67-e9f1-456d-bb00-313f16904d4e.json",
-        "time": "Wed Jul 13 18:18:36 2022"
+        "command_line": "python 'c:\\Users\\ignaczg\\Anaconda3\\envs\\cuda-torch\\lib\\site-packages\\ipykernel_launcher.py' --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 '--Session.signature_scheme=\"hmac-sha256\"' '--Session.key=b\"423dbce5-7a61-490b-8ba3-ec8e76446d9d\"' --shell=9002 '--transport=\"tcp\"' --iopub=9004 '--f=c:\\Users\\ignaczg\\AppData\\Roaming\\jupyter\\runtime\\kernel-v2-1796aytiq9iWUQPM.json'",
+        "time": "Tue Jul 19 11:20:14 2022"
     },
     "resume_experiment": false,
     "save_dir": "./data/train_results/removal/",
@@ -89,26 +96,30 @@
     "separate_test_bond_features_path": null,
     "separate_test_features_path": null,
     "separate_test_path": null,
+    "separate_test_phase_features_path": null,
     "separate_val_atom_descriptors_path": null,
     "separate_val_bond_features_path": null,
     "separate_val_features_path": null,
     "separate_val_path": null,
+    "separate_val_phase_features_path": null,
     "show_individual_scores": false,
     "smiles_columns": [
         "full_smiles"
     ],
-    "split_sizes": {
-        "_type": "tuple",
-        "_value": [
-            0.795,
-            0.2,
-            0.005
-        ]
-    },
+    "spectra_activation": "exp",
+    "spectra_phase_mask_path": null,
+    "spectra_target_floor": 1e-08,
+    "split_key_molecule": 0,
+    "split_sizes": [
+        0.795,
+        0.2,
+        0.005
+    ],
     "split_type": "random",
     "target_columns": [
         "dm300"
     ],
+    "target_weights": null,
     "task_names": [
         "dm300"
     ],
