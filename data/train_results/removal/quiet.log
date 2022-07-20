@@ -370,3 +370,67 @@ Ensemble test rmse = 0.200385
 	Seed 0 ==> test rmse = 0.200385
 Overall test rmse = 0.200385 +/- 0.000000
 Elapsed time = 0:00:26
+Fold 0
+Model 0 best validation rmse = 0.140042 on epoch 54
+Model 0 test rmse = 0.180667
+Ensemble test rmse = 0.180667
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.180667
+Overall test rmse = 0.180667 +/- 0.000000
+Elapsed time = 0:00:27
+Fold 0
+Model 0 best validation rmse = 0.113740 on epoch 54
+Model 0 test rmse = 0.160083
+Ensemble test rmse = 0.160083
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.160083
+Overall test rmse = 0.160083 +/- 0.000000
+Elapsed time = 0:00:27
+Fold 0
+Model 0 best validation rmse = 0.127017 on epoch 56
+Model 0 test rmse = 0.203072
+Ensemble test rmse = 0.203072
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.203072
+Overall test rmse = 0.203072 +/- 0.000000
+Elapsed time = 0:00:27
+Fold 0
+Model 0 best validation rmse = 0.111926 on epoch 58
+Model 0 test rmse = 0.181029
+Ensemble test rmse = 0.181029
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.181029
+Overall test rmse = 0.181029 +/- 0.000000
+Elapsed time = 0:00:26
+Fold 0
+Model 0 best validation rmse = 0.126560 on epoch 51
+Model 0 test rmse = 0.134372
+Ensemble test rmse = 0.134372
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.134372
+Overall test rmse = 0.134372 +/- 0.000000
+Elapsed time = 0:00:26
+Fold 0
+Model 0 best validation rmse = 0.227073 on epoch 2
+Model 0 test rmse = 0.247985
+Ensemble test rmse = 0.247985
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.247985
+Overall test rmse = 0.247985 +/- 0.000000
+Elapsed time = 0:00:03
+Fold 0
+Model 0 best validation rmse = 0.230735 on epoch 2
+Model 0 test rmse = 0.287670
+Ensemble test rmse = 0.287670
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.287670
+Overall test rmse = 0.287670 +/- 0.000000
+Elapsed time = 0:00:02
+Fold 0
+Model 0 best validation rmse = 0.224546 on epoch 2
+Model 0 test rmse = 0.242908
+Ensemble test rmse = 0.242908
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.242908
+Overall test rmse = 0.242908 +/- 0.000000
+Elapsed time = 0:00:02
