@@ -26,7 +26,11 @@
     "crossval_index_file": null,
     "crossval_index_sets": null,
     "cuda": true,
+<<<<<<< HEAD
     "data_path": "./data/FINAL_LIST_10fold.csv",
+=======
+    "data_path": "./data/FINAL_LIST.csv",
+>>>>>>> bc30c8c97ea55d23b226192f5902e29c181382aa
     "data_weights_path": null,
     "dataset_type": "regression",
     "depth": 3,
@@ -37,7 +41,11 @@
     "dropout": 0.0,
     "empty_cache": false,
     "ensemble_size": 1,
+<<<<<<< HEAD
     "epochs": 80,
+=======
+    "epochs": 50,
+>>>>>>> bc30c8c97ea55d23b226192f5902e29c181382aa
     "explicit_h": false,
     "extra_metrics": [],
     "features_generator": null,
@@ -85,7 +93,11 @@
     "reaction_mode": "reac_diff",
     "reproducibility": {
         "command_line": "python /home/ignaczg/anaconda3/envs/rdkit/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/ignaczg/.local/share/jupyter/runtime/kernel-7a157ae9-2130-4c84-9029-4d969b382ab6.json",
+<<<<<<< HEAD
         "time": "Wed Jul 20 18:35:53 2022"
+=======
+        "time": "Wed Jul 20 17:32:16 2022"
+>>>>>>> bc30c8c97ea55d23b226192f5902e29c181382aa
     },
     "resume_experiment": false,
     "save_dir": "./data/train_results/removal/",
