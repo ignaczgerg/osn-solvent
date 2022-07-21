@@ -39,7 +39,10 @@
     "ensemble_size": 1,
     "epochs": 50,
     "explicit_h": false,
-    "extra_metrics": [],
+    "extra_metrics": [
+        "r2",
+        "mse"
+    ],
     "features_generator": null,
     "features_only": false,
     "features_path": null,
@@ -61,7 +64,9 @@
     "max_lr": 0.001,
     "metric": "rmse",
     "metrics": [
-        "rmse"
+        "rmse",
+        "r2",
+        "mse"
     ],
     "minimize_score": true,
     "mpn_shared": false,
@@ -84,8 +89,8 @@
     "reaction": false,
     "reaction_mode": "reac_diff",
     "reproducibility": {
-        "command_line": "python /home/ignaczg/anaconda3/envs/rdkit/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/ignaczg/.local/share/jupyter/runtime/kernel-700231f9-8325-4ad5-a23e-69d928e6251e.json",
-        "time": "Thu Jul 21 14:11:49 2022"
+        "command_line": "python /home/ignaczg/anaconda3/envs/rdkit/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/ignaczg/.local/share/jupyter/runtime/kernel-b7475d0b-07b0-44d4-8ff7-2d2ab811a23b.json",
+        "time": "Thu Jul 21 21:37:59 2022"
     },
     "resume_experiment": false,
     "save_dir": "./data/train_results/hyperopt/10_fold/",
