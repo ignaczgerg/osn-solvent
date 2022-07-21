@@ -1,7 +1,9 @@
 {
     "activation": "ReLU",
+    "adding_h": false,
     "aggregation": "mean",
     "aggregation_norm": 100,
+    "alternative_loss_function": null,
     "atom_descriptor_scaling": true,
     "atom_descriptors": null,
     "atom_descriptors_path": null,
@@ -15,6 +17,7 @@
     "bond_features_size": 0,
     "cache_cutoff": 10000,
     "checkpoint_dir": null,
+    "checkpoint_frzn": null,
     "checkpoint_path": null,
     "checkpoint_paths": null,
     "class_balance": false,
@@ -22,18 +25,19 @@
     "crossval_index_dir": null,
     "crossval_index_file": null,
     "crossval_index_sets": null,
-    "cuda": false,
-    "data_path": "./data/_mecn.csv",
+    "cuda": true,
+    "data_path": "./data/FINAL_LIST_10fold.csv",
+    "data_weights_path": null,
     "dataset_type": "regression",
     "depth": 3,
     "device": {
         "_type": "python_object (type = device)",
-        "_value": "gASVHgAAAAAAAACMBXRvcmNolIwGZGV2aWNllJOUjANjcHWUhZRSlC4="
+        "_value": "gASVHwAAAAAAAACMBXRvcmNolIwGZGV2aWNllJOUjARjdWRhlIWUUpQu"
     },
     "dropout": 0.0,
     "empty_cache": false,
     "ensemble_size": 1,
-    "epochs": 60,
+    "epochs": 80,
     "explicit_h": false,
     "extra_metrics": [],
     "features_generator": null,
@@ -45,6 +49,8 @@
     "ffn_num_layers": 2,
     "final_lr": 0.0001,
     "folds_file": null,
+    "freeze_first_only": false,
+    "frzn_ffn_layers": 0,
     "gpu": null,
     "grad_clip": null,
     "hidden_size": 300,
@@ -65,23 +71,21 @@
     "no_cache_mol": false,
     "no_cuda": false,
     "no_features_scaling": false,
-    "num_folds": 1,
+    "num_folds": 10,
     "num_lrs": 1,
     "num_tasks": 1,
     "num_workers": 8,
     "number_of_molecules": 1,
     "overwrite_default_atom_features": false,
     "overwrite_default_bond_features": false,
+    "phase_features_path": null,
     "pytorch_seed": 0,
     "quiet": true,
     "reaction": false,
     "reaction_mode": "reac_diff",
     "reproducibility": {
-        "command_line": "python /Users/ignaczg/miniforge3_arm64/envs/chemprop/lib/python3.8/site-packages/ipykernel_launcher.py -f /Users/ignaczg/Library/Jupyter/runtime/kernel-d9f179e0-d3f3-4cdd-8b18-b3eabb183c9e.json",
-        "git_has_uncommitted_changes": true,
-        "git_root": "/Users/ignaczg/Dropbox/Gergo Ignacz/Projects/ai/ai-solvent/code",
-        "git_url": "https://github.com/ignaczgerg/osn-solvent/tree/cdda9325f54297e9006d838d2315135b8ea63cf5",
-        "time": "Wed Jul 20 15:35:29 2022"
+        "command_line": "python /home/ignaczg/anaconda3/envs/rdkit/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/ignaczg/.local/share/jupyter/runtime/kernel-7a157ae9-2130-4c84-9029-4d969b382ab6.json",
+        "time": "Wed Jul 20 18:35:53 2022"
     },
     "resume_experiment": false,
     "save_dir": "./data/train_results/removal/",
@@ -92,26 +96,30 @@
     "separate_test_bond_features_path": null,
     "separate_test_features_path": null,
     "separate_test_path": null,
+    "separate_test_phase_features_path": null,
     "separate_val_atom_descriptors_path": null,
     "separate_val_bond_features_path": null,
     "separate_val_features_path": null,
     "separate_val_path": null,
+    "separate_val_phase_features_path": null,
     "show_individual_scores": false,
     "smiles_columns": [
         "full_smiles"
     ],
-    "split_sizes": {
-        "_type": "tuple",
-        "_value": [
-            0.99,
-            0.005,
-            0.005
-        ]
-    },
+    "spectra_activation": "exp",
+    "spectra_phase_mask_path": null,
+    "spectra_target_floor": 1e-08,
+    "split_key_molecule": 0,
+    "split_sizes": [
+        0.795,
+        0.2,
+        0.005
+    ],
     "split_type": "random",
     "target_columns": [
         "dm300"
     ],
+    "target_weights": null,
     "task_names": [
         "dm300"
     ],
