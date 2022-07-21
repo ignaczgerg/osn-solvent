@@ -71,7 +71,7 @@
     "no_cache_mol": false,
     "no_cuda": false,
     "no_features_scaling": false,
-    "num_folds": 1,
+    "num_folds": 10,
     "num_lrs": 1,
     "num_tasks": 1,
     "num_workers": 8,
@@ -85,10 +85,10 @@
     "reaction_mode": "reac_diff",
     "reproducibility": {
         "command_line": "python /home/ignaczg/anaconda3/envs/rdkit/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/ignaczg/.local/share/jupyter/runtime/kernel-700231f9-8325-4ad5-a23e-69d928e6251e.json",
-        "time": "Thu Jul 21 14:10:20 2022"
+        "time": "Thu Jul 21 14:11:49 2022"
     },
     "resume_experiment": false,
-    "save_dir": "./data/train_results/removal/",
+    "save_dir": "./data/train_results/hyperopt/10_fold/",
     "save_preds": false,
     "save_smiles_splits": false,
     "seed": 0,
