@@ -1,0 +1,52 @@
+,name,container,cas,mw,solute_smiles,solvent_smiles,solvent_name,dm300,dm300_error,full_smiles
+15,Avobenzone Pharmaceutical Secondary Stan (Avobenzone),AP12,70356-09-1,310.1568946,CC(C)(C)C1=CC=C(C=C1)C(=O)CC(=O)C2=CC=C(C=C2)OC,CC(C)(C)OC,Methyl tert butyl ether,0.36404992,0.028753825,CC(C)(C)C1=CC=C(C=C1)C(=O)CC(=O)C2=CC=C(C=C2)OC.CC(C)(C)OC
+47,4-Acetoamidophenol,AP37,103-90-2,151.0,OC1=CC=C(NC(C)=O)C=C1,CC(C)(C)OC,Methyl tert butyl ether,0.445741585,0.133839398,OC1=CC=C(NC(C)=O)C=C1.CC(C)(C)OC
+58,CIPROFLOXACIN,AP40,85721-33-1,331.3,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,CC(C)(C)OC,Methyl tert butyl ether,0.349347581,0.089033496,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O.CC(C)(C)OC
+90,Rifaximin,AP63,80621-81-4,785.9,C[C@H]1/C=C/C=C(\C(=O)NC2=C(C3=C(C4=C(C(=C3O)C)O[C@@](C4=O)(O/C=C/[C@@H]([C@H]([C@H]([C@@H]([C@@H]([C@@H]([C@H]1O)C)O)C)OC(=O)C)C)OC)C)C5=C2N6C=CC(=CC6=N5)C)O)/C,CC(C)(C)OC,Methyl tert butyl ether,0.869273499,0.011483947,C[C@H]1/C=C/C=C(\C(=O)NC2=C(C3=C(C4=C(C(=C3O)C)O[C@@](C4=O)(O/C=C/[C@@H]([C@H]([C@H]([C@@H]([C@@H]([C@@H]([C@H]1O)C)O)C)OC(=O)C)C)OC)C)C5=C2N6C=CC(=CC6=N5)C)O)/C.CC(C)(C)OC
+118,6-BROMOOXINDOLE,CA121,99365-40-9,210.9632759,O=C1NC2=C(C=CC(Br)=C2)C1,CC(C)(C)OC,Methyl tert butyl ether,0.148631736,0.386169374,O=C1NC2=C(C=CC(Br)=C2)C1.CC(C)(C)OC
+125,9-(2-Hydroxyethyl)anthracene,CA139,54060-73-0,222.1044651,OCCC1=C2C=CC=CC2=CC3=CC=CC=C13,CC(C)(C)OC,Methyl tert butyl ether,-0.036044637,0.089246366,OCCC1=C2C=CC=CC2=CC3=CC=CC=C13.CC(C)(C)OC
+132,"1,3,5-Tris(4-aminophenyl)benzene",CA144,118727-34-7,351.44,Nc1ccc(-c2cc(-c3ccc(N)cc3)cc(-c3ccc(N)cc3)c2)cc1,CC(C)(C)OC,Methyl tert butyl ether,0.292597149,0.040420296,Nc1ccc(-c2cc(-c3ccc(N)cc3)cc(-c3ccc(N)cc3)c2)cc1.CC(C)(C)OC
+143,Diphenylacetylene,CA150,501-65-5,178.23,C(#Cc1ccccc1)c1ccccc1,CC(C)(C)OC,Methyl tert butyl ether,0.120676244,0.397460443,C(#Cc1ccccc1)c1ccccc1.CC(C)(C)OC
+159,(R)-(_)-1-Indanol,CA170,697-64-3,134.0,C1CC2=CC=CC=C2C1O,CC(C)(C)OC,Methyl tert butyl ether,0.116316355,0.400969587,C1CC2=CC=CC=C2C1O.CC(C)(C)OC
+172,"2,4,6-trimethylbenzene-1,3,5-tricarbaldehyde",CA188,119198-88-8,204.22,Cc1c(C=O)c(C)c(C=O)c(C)c1C=O,CC(C)(C)OC,Methyl tert butyl ether,-0.224746778,0.238038495,Cc1c(C=O)c(C)c(C=O)c(C)c1C=O.CC(C)(C)OC
+183,2-BROMO-1-PHENYLETHAN-1-OL,CA228,2425-28-7,201.1,C1=CC=C(C=C1)C(CBr)O,CC(C)(C)OC,Methyl tert butyl ether,-0.004894468,0.057500646,C1=CC=C(C=C1)C(CBr)O.CC(C)(C)OC
+191,"2,5-dibromo-3,4-dinitrothiophene",CA29,52431-30-8,329.79,O=[N+](C1=C(Br)SC(Br)=C1[N+]([O-])=O)[O-],CC(C)(C)OC,Methyl tert butyl ether,0.056599629,0.009388757,O=[N+](C1=C(Br)SC(Br)=C1[N+]([O-])=O)[O-].CC(C)(C)OC
+208,"4,4-(Hexafluoroisopropylidene)bis(benzoic acid)",CA36,1171-47-7,392.0483281,FC(F)(F)C(C1=CC=C(C=C1)C(O)=O)(C2=CC=C(C=C2)C(O)=O)C(F)(F)F,CC(C)(C)OC,Methyl tert butyl ether,-0.031168192,0.067504743,FC(F)(F)C(C1=CC=C(C=C1)C(O)=O)(C2=CC=C(C=C2)C(O)=O)C(F)(F)F.CC(C)(C)OC
+213,5-Aminoindole,CA38,5192-03-0,132.16,Nc1ccc2[nH]ccc2c1,CC(C)(C)OC,Methyl tert butyl ether,-0.412649664,0.065177558,Nc1ccc2[nH]ccc2c1.CC(C)(C)OC
+227,"1-Bromo-4-methoxy-2,5-dimethylbenzene",CA57,58106-25-5,213.9993271,CC1=C(OC)C=C(C)C(Br)=C1,CC(C)(C)OC,Methyl tert butyl ether,-0.194460582,0.173290973,CC1=C(OC)C=C(C)C(Br)=C1.CC(C)(C)OC
+239,"3,5-Difluorobenzonitrile",CA78,64248-63-1,139.0233555,N#CC1=CC(F)=CC(F)=C1,CC(C)(C)OC,Methyl tert butyl ether,-0.014446313,0.037336916,N#CC1=CC(F)=CC(F)=C1.CC(C)(C)OC
+257,"2-Ethylhexyl 2-cyano-3,3-diphenylacrylate",CA81,6197-30-4,361.48,CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1,CC(C)(C)OC,Methyl tert butyl ether,-0.12249644,0.233649633,CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1.CC(C)(C)OC
+273,Triptycene,CB109,477-75-8,254.0,C1=CC=C2C3C4=CC=CC=C4C(C2=C1)C5=CC=CC=C35,CC(C)(C)OC,Methyl tert butyl ether,0.013567943,0.065781848,C1=CC=C2C3C4=CC=CC=C4C(C2=C1)C5=CC=CC=C35.CC(C)(C)OC
+314,3-Fluoroaniline,CB145,372-19-0,111.0484274,NC1=CC=CC(F)=C1,CC(C)(C)OC,Methyl tert butyl ether,-0.089165216,0.051528842,NC1=CC=CC(F)=C1.CC(C)(C)OC
+321,Perfluorobenzophenone,CB148,853-39-4,361.9789468,O=C(C1=C(F)C(F)=C(F)C(F)=C1F)C2=C(F)C(F)=C(F)C(F)=C2F,CC(C)(C)OC,Methyl tert butyl ether,0.229003585,0.043710775,O=C(C1=C(F)C(F)=C(F)C(F)=C1F)C2=C(F)C(F)=C(F)C(F)=C2F.CC(C)(C)OC
+350,"4,5-Dibromo-o-xylene",CB53,24932-48-7,261.8992745,CC1=CC(Br)=C(Br)C=C1C,CC(C)(C)OC,Methyl tert butyl ether,-0.08444554,0.067182125,CC1=CC(Br)=C(Br)C=C1C.CC(C)(C)OC
+363,Fluorene,CB78,86-73-7,166.22,c1ccc2c(c1)Cc1ccccc1-2,CC(C)(C)OC,Methyl tert butyl ether,-0.098423899,0.02093812,c1ccc2c(c1)Cc1ccccc1-2.CC(C)(C)OC
+373,4-Iodotoluene,CB87,624-31-7,218.03,Cc1ccc(I)cc1,CC(C)(C)OC,Methyl tert butyl ether,-0.117855842,0.032147495,Cc1ccc(I)cc1.CC(C)(C)OC
+397,2-Hydroxy-4-methoxybenzophenone,CC 19,131-57-7,228.0,COC1=CC(=C(C=C1)C(=O)C2=CC=CC=C2)O,CC(C)(C)OC,Methyl tert butyl ether,-0.021490239,0.065898976,COC1=CC(=C(C=C1)C(=O)C2=CC=CC=C2)O.CC(C)(C)OC
+402,Benzimidazole,CC12,51-17-2,118.0530982,C12=CC=CC=C1NC=N2,CC(C)(C)OC,Methyl tert butyl ether,-0.000358294,0.155929912,C12=CC=CC=C1NC=N2.CC(C)(C)OC
+409,4-Bromoanisole,CC23,104-92-7,185.9680269,COC1=CC=C(Br)C=C1,CC(C)(C)OC,Methyl tert butyl ether,-0.126867407,0.033815035,COC1=CC=C(Br)C=C1.CC(C)(C)OC
+432,"2,5 dimethyl anilin",CC46,95-78-3,121.0891494,NC1=CC(C)=CC=C1C,CC(C)(C)OC,Methyl tert butyl ether,-0.079196854,0.045336833,NC1=CC(C)=CC=C1C.CC(C)(C)OC
+441,"2,6-Lutidine",CC50,108-48-5,107.0,CC1=NC(C)=CC=C1,CC(C)(C)OC,Methyl tert butyl ether,0.005821604,0.163769162,CC1=NC(C)=CC=C1.CC(C)(C)OC
+469,5-chlorosalicylanilide,CE19,4638-48-6,247.7,C1=CC=C(C=C1)NC(=O)C2=C(C=CC(=C2)Cl)O,CC(C)(C)OC,Methyl tert butyl ether,-0.042897306,0.164182651,C1=CC=C(C=C1)NC(=O)C2=C(C=CC(=C2)Cl)O.CC(C)(C)OC
+473,Amlodipine,CE22,88150-42-9,408.9,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN,CC(C)(C)OC,Methyl tert butyl ether,0.353383189,0.051677348,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN.CC(C)(C)OC
+477,4-Chloroindole,"CE3, RSY39",25235-85-2,151.6,C1=CC2=C(C=CN2)C(=C1)Cl,CC(C)(C)OC,Methyl tert butyl ether,-0.101434897,0.054654724,C1=CC2=C(C=CN2)C(=C1)Cl.CC(C)(C)OC
+509,"2,4-Diphenyl-4-methyl-1-pentene",CJ63,6362-80-7,236.35,CC(C)(CC(=C)C1=CC=CC=C1)C2=CC=CC=C2,CC(C)(C)OC,Methyl tert butyl ether,-0.025146937,0.092883062,CC(C)(CC(=C)C1=CC=CC=C1)C2=CC=CC=C2.CC(C)(C)OC
+523,Methyl 4-bromobenzoate,CJ70,619-42-1,215.05,BrC1=CC=C(C(OC)=O)C=C1,CC(C)(C)OC,Methyl tert butyl ether,-0.088438251,0.063201934,BrC1=CC=C(C(OC)=O)C=C1.CC(C)(C)OC
+545,2-Phenylbutyric acid,CK18,90-27-7,164.2,CCC(C(=O)O)c1ccccc1,CC(C)(C)OC,Methyl tert butyl ether,0.016061246,0.047854878,CCC(C(=O)O)c1ccccc1.CC(C)(C)OC
+574,m-Cresol GPR RECTAPURÔøΩ,"CM23, Y1, Y10",108-39-4,108.0575149,CC1=CC(O)=CC=C1,CC(C)(C)OC,Methyl tert butyl ether,0.002321034,0.049570486,CC1=CC(O)=CC=C1.CC(C)(C)OC
+581,mesitylene,CM6,108-67-8,120.19,CC1=CC(=CC(=C1)C)C,CC(C)(C)OC,Methyl tert butyl ether,-0.056042433,0.038500496,CC1=CC(=CC(=C1)C)C.CC(C)(C)OC
+595,"4,4'-Difluorobenzophenone",CO28,345-92-6,218.0,O=C(C1=CC=C(F)C=C1)C2=CC=C(F)C=C2,CC(C)(C)OC,Methyl tert butyl ether,-0.070571684,0.057386694,O=C(C1=CC=C(F)C=C1)C2=CC=C(F)C=C2.CC(C)(C)OC
+614,2-Aminopyridine,CP27,504-29-0,94.0,C1=CC=NC(=C1)N,CC(C)(C)OC,Methyl tert butyl ether,-0.078826682,0.027174681,C1=CC=NC(=C1)N.CC(C)(C)OC
+634,"4,5-dichlorophthalonitrile",CP8,139152-08-2,197.0,C1=C(C(=CC(=C1Cl)Cl)C#N)C#N,CC(C)(C)OC,Methyl tert butyl ether,0.084501031,0.025509598,C1=C(C(=CC(=C1Cl)Cl)C#N)C#N.CC(C)(C)OC
+648,p-Anisidine,CQ24,104-94-9,123.0684139,NC1=CC=C(OC)C=C1,CC(C)(C)OC,Methyl tert butyl ether,0.017893879,0.056139961,NC1=CC=C(OC)C=C1.CC(C)(C)OC
+655,"2,5-Dimethylphenol",CQ25,95-87-4,122.0731649,OC1=CC(C)=CC=C1C,CC(C)(C)OC,Methyl tert butyl ether,0.045739307,0.04612867,OC1=CC(C)=CC=C1C.CC(C)(C)OC
+663,2-Pheylphenol,CQ4,90-43-7,170.0731649,OC1=CC=CC=C1C2=CC=CC=C2,CC(C)(C)OC,Methyl tert butyl ether,0.13261545,0.394086631,OC1=CC=CC=C1C2=CC=CC=C2.CC(C)(C)OC
+671,"2,5-Dimethylphenol",CQ44,95-87-4,122.0,OC1=CC(C)=CC=C1C,CC(C)(C)OC,Methyl tert butyl ether,0.180006687,0.056363804,OC1=CC(C)=CC=C1C.CC(C)(C)OC
+737,Phenylacetylene,RB13,536-74-3,102.13,C#Cc1ccccc1,CC(C)(C)OC,Methyl tert butyl ether,0.145329209,0.382560684,C#Cc1ccccc1.CC(C)(C)OC
+744,pyrimethanie (mebendazole),RB23,31431-39-7,295.0956913,COC(=O)NC1=NC2=C(N1)C=C(C=C2)C(=O)C3=CC=CC=C3,CC(C)(C)OC,Methyl tert butyl ether,-0.214762481,0.18313418,COC(=O)NC1=NC2=C(N1)C=C(C=C2)C(=O)C3=CC=CC=C3.CC(C)(C)OC
+751,Fenbendazole,RB24,43210-67-9,299.0728477,COC(NC1=NC2=C(C=C(SC3=CC=CC=C3)C=C2)N1)=O,CC(C)(C)OC,Methyl tert butyl ether,-0.008591292,0.177681785,COC(NC1=NC2=C(C=C(SC3=CC=CC=C3)C=C2)N1)=O.CC(C)(C)OC
+759,Benzbromarone,RB30,3562-84-3,421.9153184,O=C(C1=CC(Br)=C(O)C(Br)=C1)C2=C(OC3=C2C=CC=C3)CC,CC(C)(C)OC,Methyl tert butyl ether,0.189459374,0.36865056,O=C(C1=CC(Br)=C(O)C(Br)=C1)C2=C(OC3=C2C=CC=C3)CC.CC(C)(C)OC
+775,Tebuconazole,RB40,107534-96-3,307.14514,CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,CC(C)(C)OC,Methyl tert butyl ether,-0.150248486,0.237436582,CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O.CC(C)(C)OC
+779,Oxolinic acid,RB41,14698-29-4,261.0637225,CCN(C1=CC2=C(C=C1C3=O)OCO2)C=C3C(O)=O,CC(C)(C)OC,Methyl tert butyl ether,0.25465643,0.037641738,CCN(C1=CC2=C(C=C1C3=O)OCO2)C=C3C(O)=O.CC(C)(C)OC
+791,4-tert-Butylstyrene,RB56,1746-23-2,160.26,C=Cc1ccc(C(C)(C)C)cc1,CC(C)(C)OC,Methyl tert butyl ether,0.068420286,0.023909156,C=Cc1ccc(C(C)(C)C)cc1.CC(C)(C)OC
+803,1-(4-BROMOPHENYL)ETHANOL,RC22,5391-88-8,201.1,CC(C1=CC=C(C=C1)Br)O,CC(C)(C)OC,Methyl tert butyl ether,-0.239239068,0.235354625,CC(C1=CC=C(C=C1)Br)O.CC(C)(C)OC
