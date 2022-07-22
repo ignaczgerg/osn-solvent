@@ -39,7 +39,10 @@
     "ensemble_size": 1,
     "epochs": 60,
     "explicit_h": false,
-    "extra_metrics": [],
+    "extra_metrics": [
+        "r2",
+        "mse"
+    ],
     "features_generator": null,
     "features_only": false,
     "features_path": null,
@@ -61,7 +64,9 @@
     "max_lr": 0.001,
     "metric": "rmse",
     "metrics": [
-        "rmse"
+        "rmse",
+        "r2",
+        "mse"
     ],
     "minimize_score": true,
     "mpn_shared": false,
@@ -71,7 +76,7 @@
     "no_cache_mol": false,
     "no_cuda": false,
     "no_features_scaling": false,
-    "num_folds": 1,
+    "num_folds": 10,
     "num_lrs": 1,
     "num_tasks": 1,
     "num_workers": 8,
@@ -84,8 +89,8 @@
     "reaction": false,
     "reaction_mode": "reac_diff",
     "reproducibility": {
-        "command_line": "python /home/ignaczg/anaconda3/envs/rdkit/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/ignaczg/.local/share/jupyter/runtime/kernel-ab3ceec9-8164-4a06-ac09-65b98d4d4da8.json",
-        "time": "Thu Jul 21 17:08:51 2022"
+        "command_line": "python /home/ignaczg/anaconda3/envs/rdkit/lib/python3.8/site-packages/ipykernel_launcher.py -f /home/ignaczg/.local/share/jupyter/runtime/kernel-05d85262-3219-459a-86b2-5360cba4da72.json",
+        "time": "Fri Jul 22 11:40:04 2022"
     },
     "resume_experiment": false,
     "save_dir": "./data/train_results/IPA_results.csv",
