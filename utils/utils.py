@@ -38,7 +38,7 @@ def smiles_concat(first_smiles: list, second_smiles: list):
 
 
 
-def rejection_diagram(x: str, y: str, data: pd.DataFrame, x_axis: str, y_axis: str, group="solvent_name"):
+def rejection_diagram(x: str, y: str, data: pd.DataFrame, x_axis: str, y_axis: str, group="solvent_name", save=None):
     """
     :x: measured data
     :y: predicted data
@@ -46,7 +46,7 @@ def rejection_diagram(x: str, y: str, data: pd.DataFrame, x_axis: str, y_axis: s
     :x_axis: Label name on the X-axis
     :y_axis: Label name on the Y-axis
     """
-    plt.figure(figsize=(10,8), tight_layout=True)
+    plt.figure(figsize=(6,6), tight_layout=True)
     ax = plt.axes()
     ax.set(facecolor = "white")
     ax.spines['right'].set_visible(False)
@@ -90,3 +90,6 @@ def rejection_diagram(x: str, y: str, data: pd.DataFrame, x_axis: str, y_axis: s
 
     plt.xlabel(x_axis)
     plt.ylabel(y_axis)
+
+    if save is not None:
+        plt.savefig(save)

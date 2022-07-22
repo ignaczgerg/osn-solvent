@@ -1,4 +1,4 @@
-name,container,cas,mw,solute_smiles,solvent_smiles,solvent_name,dm300,dm300_error,full_smiles
+name,container,cas,mw,solute_smiles,solvent_smiles,solvent_name,dm300_measured,dm300_error,full_smiles
 Atenolol,AP1 ,29122-68-7,266,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,CO,Methanol,0.992,0.0011,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O.CO
 Atenolol,AP1 ,29122-68-7,266,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,CC(C)=O,Acetone,0.792712931,0.03874108,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O.CC(C)=O
 Ibuprofen,AP10,15687-27-1,206.1306798,CC(CC1=CC=C(C(C(O)=O)C)C=C1)C,CO,Methanol,0.9888,0.0011,CC(CC1=CC=C(C(C(O)=O)C)C=C1)C.CO
