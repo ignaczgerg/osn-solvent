@@ -1441,3 +1441,105 @@ Overall test rmse = 0.272469 +/- 0.035503
 Overall test r2 = -0.524802 +/- 0.390818
 Overall test mse = 0.075500 +/- 0.019351
 Elapsed time = 0:07:08
+Fold 0
+Model 0 best validation rmse = 0.291848 on epoch 33
+Model 0 test rmse = 0.287936
+Model 0 test r2 = 0.307995
+Model 0 test mse = 0.082907
+Ensemble test rmse = 0.287936
+Ensemble test r2 = 0.307995
+Ensemble test mse = 0.082907
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.287936
+	Seed 0 ==> test r2 = 0.307995
+	Seed 0 ==> test mse = 0.082907
+Overall test rmse = 0.287936 +/- 0.000000
+Overall test r2 = 0.307995 +/- 0.000000
+Overall test mse = 0.082907 +/- 0.000000
+Elapsed time = 0:00:33
+Fold 0
+Model 0 best validation rmse = 0.273804 on epoch 5
+Model 0 test rmse = 0.277553
+Model 0 test r2 = 0.332645
+Model 0 test mse = 0.077035
+Ensemble test rmse = 0.277553
+Ensemble test r2 = 0.332645
+Ensemble test mse = 0.077035
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.277553
+	Seed 0 ==> test r2 = 0.332645
+	Seed 0 ==> test mse = 0.077035
+Overall test rmse = 0.277553 +/- 0.000000
+Overall test r2 = 0.332645 +/- 0.000000
+Overall test mse = 0.077035 +/- 0.000000
+Elapsed time = 0:00:15
+Fold 0
+Model 0 best validation rmse = 0.273608 on epoch 9
+Model 0 test rmse = 0.285856
+Model 0 test r2 = 0.326022
+Model 0 test mse = 0.081714
+Ensemble test rmse = 0.285856
+Ensemble test r2 = 0.326022
+Ensemble test mse = 0.081714
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.285856
+	Seed 0 ==> test r2 = 0.326022
+	Seed 0 ==> test mse = 0.081714
+Overall test rmse = 0.285856 +/- 0.000000
+Overall test r2 = 0.326022 +/- 0.000000
+Overall test mse = 0.081714 +/- 0.000000
+Elapsed time = 0:00:15
+Fold 0
+Model 0 best validation rmse = 0.291864 on epoch 18
+Model 0 test rmse = 0.282264
+Model 0 test r2 = 0.334987
+Model 0 test mse = 0.079673
+Ensemble test rmse = 0.282264
+Ensemble test r2 = 0.334987
+Ensemble test mse = 0.079673
+1-fold cross validation
+	Seed 0 ==> test rmse = 0.282264
+	Seed 0 ==> test r2 = 0.334987
+	Seed 0 ==> test mse = 0.079673
+Overall test rmse = 0.282264 +/- 0.000000
+Overall test r2 = 0.334987 +/- 0.000000
+Overall test mse = 0.079673 +/- 0.000000
+Elapsed time = 0:00:16
+Fold 0
+Model 0 best validation rmse = 0.291864 on epoch 18
+Model 0 test rmse = 0.282264
+Model 0 test r2 = 0.334987
+Model 0 test mse = 0.079673
+Ensemble test rmse = 0.282264
+Ensemble test r2 = 0.334987
+Ensemble test mse = 0.079673
+Fold 1
+Model 0 best validation rmse = 0.260736 on epoch 13
+Model 0 test rmse = 0.280897
+Model 0 test r2 = 0.334562
+Model 0 test mse = 0.078903
+Ensemble test rmse = 0.280897
+Ensemble test r2 = 0.334562
+Ensemble test mse = 0.078903
+Fold 2
+Model 0 best validation rmse = 0.252724 on epoch 23
+Model 0 test rmse = 0.266238
+Model 0 test r2 = 0.350087
+Model 0 test mse = 0.070882
+Ensemble test rmse = 0.266238
+Ensemble test r2 = 0.350087
+Ensemble test mse = 0.070882
+3-fold cross validation
+	Seed 0 ==> test rmse = 0.282264
+	Seed 0 ==> test r2 = 0.334987
+	Seed 0 ==> test mse = 0.079673
+	Seed 1 ==> test rmse = 0.280897
+	Seed 1 ==> test r2 = 0.334562
+	Seed 1 ==> test mse = 0.078903
+	Seed 2 ==> test rmse = 0.266238
+	Seed 2 ==> test r2 = 0.350087
+	Seed 2 ==> test mse = 0.070882
+Overall test rmse = 0.276466 +/- 0.007254
+Overall test r2 = 0.339879 +/- 0.007221
+Overall test mse = 0.076486 +/- 0.003975
+Elapsed time = 0:00:52
