@@ -52,7 +52,7 @@ def rejection_diagram(x: str, y: str, data: pd.DataFrame, x_axis: str, y_axis: s
     ax.spines['right'].set_visible(False)
     ax.spines['top'].set_visible(False)
     
-    _data = data.dropna(subset=[x])
+    _data = data
     x_values=_data[x].astype('float64')
     y_values=_data[y].astype('float64')
     
