@@ -16,6 +16,14 @@ from matplotlib.offsetbox import (TextArea, DrawingArea, OffsetImage,
 from matplotlib.cbook import get_sample_data
 import matplotlib.patches as mpatches
 
+from rdkit.Chem.Draw import IPythonConsole
+from rdkit.Chem import rdDepictor
+from rdkit.Chem.Draw import rdMolDraw2D
+from IPython.display import SVG
+import os
+from chemprop.utils import makedirs
+
+
 def smiles_concat(first_smiles: list, second_smiles: list):
     """
     Given two list of smiles, returns the their list with the concatenated version. 
@@ -93,3 +101,20 @@ def rejection_diagram(x: str, y: str, data: pd.DataFrame, x_axis: str, y_axis: s
 
     if save is not None:
         plt.savefig(save)
+
+
+
+def moltosvg(mol, molSize = (300,300), kekulize = True):
+    mc = Chem.Mol(mol.ToBinary())
+    if kekulize:
+        try:
+            Chem.Kekulize(mc)
+        except:
+            mc = Chem.Mol(mol.ToBinary())
+    if not mc.GetNumConformers():
+        rdDepictor.Compute2DCoords(mc)
+    drawer = rdMolDraw2D.MolDraw2DSVG(molSize[0],molSize[1])
+    drawer.DrawMolecule(mc)
+    drawer.FinishDrawing()
+    svg = drawer.GetDrawingText()
+    return svg.replace('svg:','')
